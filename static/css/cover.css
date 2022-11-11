@@ -1,0 +1,34 @@
+.outer_box .content_main{
+    width: 100%;
+    height: 950px;
+    background: url(../image/background.jpg);
+    margin:auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+a{
+    font-family: "宋体";
+    text-decoration: none;
+    font-size: 30px;
+    color: #0c5d02;
+    font-weight: bold;
+}
+
+.outer_box .content_main .info{
+    margin-top: 50px;
+}
+.outer_box .content_main .info h1:first-child{
+    font-size: 50px;
+    font-weight: 900;
+    letter-spacing: 20px;
+}
+
+.outer_box .content_main .info h1:last-child{
+    margin-top: 20px;
+    letter-spacing: 10px;
+}
+
+.outer_box .content_main .bottom{
+    margin-top: 180px;
+}

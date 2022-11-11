@@ -1,0 +1,105 @@
+input{
+    border: transparent;
+    background-color: rgba(255, 255, 255, 0);
+    text-align: center;
+}
+
+td{
+    width: 100px;
+}
+
+*{
+    font-family: "宋体";
+}
+
+.outer_box{
+    height: 1000px;
+}
+
+.outer_box .content_main{
+    width: 80%;
+    margin: 20px auto;
+}
+
+.outer_box .content_main .content_main_left{
+    width: 40%;
+    height: 900px;
+    float: left;
+    background-color: #ebebeb;
+}
+
+.outer_box .content_main .content_main_left .content_main_left_top{
+    text-align: center;
+}
+
+.outer_box .content_main .content_main_left .content_main_left_top table,
+.outer_box .content_main .content_main_left .content_main_left_center table,
+.outer_box .content_main .content_main_left .content_main_left_bottom table{
+    width: 80%;
+    margin: 0 auto;
+    line-height: 30px;
+}
+
+.outer_box .content_main .content_main_left .content_main_left_top table input{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.outer_box .content_main .content_main_left .content_main_left_top img{
+    width: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.outer_box .content_main .content_main_left .content_main_left_center{
+    margin-top: 50px;
+}
+
+.outer_box .content_main .content_main_left .content_main_left_bottom div{
+    margin-top: 50px;
+}
+
+.outer_box .content_main .content_main_left .content_main_left_bottom div:last-child{
+    margin-bottom: 30px;
+}
+
+.outer_box .content_main .content_main_right{
+    width: 55%;
+    height: 900px;
+    float: left;
+    background-color: #fff;
+    padding-left: 20px;
+}
+
+.outer_box .content_main .content_main_right .content_item{
+    margin-top: 20px;
+    line-height: 20px;
+    font-family: "宋体";
+}
+
+.outer_box .content_main .content_main_right .content_item h1{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.outer_box .content_main .content_main_right .content_item h3{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.outer_box .content_main .content_main_bottom{
+    width: 100%;
+    line-height: 60px;
+    margin-top: 5px;
+    float: left;
+    background-color: #ebebeb;
+}
+
+.outer_box .content_main .content_main_bottom input{
+    width: 220px;
+}
+
+.outer_box .content_main .content_main_bottom p{
+    float: left;
+    margin-left: 100px;
+}
